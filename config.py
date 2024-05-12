@@ -10,11 +10,11 @@ load_dotenv("config.env")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-API_ID = int(os.environ.get("API_ID", "2040"))
-API_HASH = os.environ.get("API_HASH", "b18441a1ff607e10a989891a5462e627")
+API_ID = int(os.environ.get("API_ID", "29177269"))
+API_HASH = os.environ.get("API_HASH", "e80e7aea5cfce8d0fb1f9ea48ffe3580")
 
-CHANNEL_DB = int(os.environ.get("CHANNEL_DB", ""))
-MONGO_URL = os.environ.get("MONGO_URL", "")
+CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1002001311290"))
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://ojek2:kang@cluster0.iwpjorf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
